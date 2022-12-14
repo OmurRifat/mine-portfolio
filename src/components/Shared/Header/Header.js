@@ -1,5 +1,6 @@
 import { Button, Navbar } from 'flowbite-react';
 import React from 'react';
+import img from '../../../assets/Icons/Black And White Rakia Design Studio Logo (2).png'
 
 const Header = () => {
     return (
@@ -9,17 +10,14 @@ const Header = () => {
         >
             <Navbar.Brand href="https://flowbite.com/">
                 <img
-                    src="https://flowbite.com/docs/images/logo.svg"
+                    src={ `${img}` }
                     className="mr-3 h-6 sm:h-9"
                     alt="Flowbite Logo"
                 />
-                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-                    Flowbite
-                </span>
             </Navbar.Brand>
             <div className="flex md:order-2">
                 <Button>
-                    Get started
+                    Get Resume
                 </Button>
                 <Navbar.Toggle />
             </div>
@@ -31,16 +29,13 @@ const Header = () => {
                     Home
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
+                    Projects
+                </Navbar.Link>
+                <Navbar.Link href="/navbars">
+                    Blogs
+                </Navbar.Link>
+                <Navbar.Link href="/navbars">
                     About
-                </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    Services
-                </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    Pricing
-                </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    Contact
                 </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>

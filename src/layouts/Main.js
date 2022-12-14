@@ -5,7 +5,7 @@ import Header from '../components/Shared/Header/Header';
 
 const Main = () => {
     return (
-        <div>
+        <div className=' w-4/5 mx-auto'>
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>
