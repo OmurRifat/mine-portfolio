@@ -8,33 +8,33 @@ const Header = () => {
             fluid={ true }
             rounded={ true }
         >
-            <Navbar.Brand href="https://flowbite.com/">
+            <Navbar.Brand href="/">
                 <img
                     src={ `${img}` }
                     className="mr-3 h-6 sm:h-9"
                     alt="Flowbite Logo"
                 />
             </Navbar.Brand>
-            <div className="flex md:order-2">
-                <Button>
+            <div className="flex md:order-2 ">
+                <button className='bg-primary px-7 py-3 rounded-lg'>
                     Get Resume
-                </Button>
+                </button>
                 <Navbar.Toggle />
             </div>
             <Navbar.Collapse>
                 <Navbar.Link
-                    href="/navbars"
+                    href="/"
                     active={ true }
                 >
                     Home
                 </Navbar.Link>
-                <Navbar.Link href="/navbars">
+                <Navbar.Link href="/projects">
                     Projects
                 </Navbar.Link>
-                <Navbar.Link href="/navbars">
+                <Navbar.Link href="/blogs">
                     Blogs
                 </Navbar.Link>
-                <Navbar.Link href="/navbars">
+                <Navbar.Link href="/about">
                     About
                 </Navbar.Link>
             </Navbar.Collapse>
