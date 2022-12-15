@@ -11,9 +11,13 @@ const Banner = () => {
                     sequence={ ['MERN Stack Developer', 1000, 'Frontend Developer', 1000, 'React.js Developer', 1000] }
                     //  Replacing previous Text
                     wrapper="h4"
-                    className=' font-bold text-2xl flex-nowrap text-purple-900'
+                    className=' font-bold text-2xl flex-nowrap text-purple-900 mt-2 mb-4'
                     repeat={ Infinity }
                 />
+                <p>
+                    I am highly disciplined, and a quick learner. I am passionate about enhancing and developing my <br /> skills and making sure my projects are best fitted. You'll find me hardworking, always seeking improvement<br /> and betterment, and fiercely ambitious.
+                </p>
+                <button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold my-4'>Get In Tuch</button>
             </div>
             <div>
                 <img src={ img } alt="" />
