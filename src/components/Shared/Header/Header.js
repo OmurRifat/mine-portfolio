@@ -16,7 +16,7 @@ const Header = () => {
                 />
             </Navbar.Brand>
             <div className="flex md:order-2 ">
-                <button className='bg-primary px-7 py-3 rounded-lg'>
+                <button className=' bg-purple-700 text-white font-medium px-7 py-3 rounded-lg'>
                     Get Resume
                 </button>
                 <Navbar.Toggle />
