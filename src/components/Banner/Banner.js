@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 import img from '../../assets/Images/rifat_3-removebg-preview (2).png'
 
@@ -17,7 +18,7 @@ const Banner = () => {
                 <p>
                     I am highly disciplined, and a quick learner. I am passionate about enhancing and developing my <br /> skills and making sure my projects are best fitted. You'll find me hardworking, always seeking improvement<br /> and betterment, and fiercely ambitious.
                 </p>
-                <button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold my-4'>Get In Tuch</button>
+                <Link to='/contact'><button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold my-4'>Get In Tuch</button></Link>
             </div>
             <div>
                 <img src={ img } alt="" />
