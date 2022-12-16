@@ -1,11 +1,28 @@
+import emailjs from '@emailjs/browser';
 import { Label, Textarea, TextInput } from 'flowbite-react';
 import React from 'react';
+import { useForm } from 'react-hook-form';
+import { toast } from 'react-hot-toast';
 
 const Contact = () => {
+    const { register, handleSubmit } = useForm();
+
+    const formSubmit = (data) => {
+        console.log(data);
+
+        emailjs.send('service_ok7xt5p', 'template_rwo6t88', data, "LKBPPLmHN-3FYoV3O")
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+                if (response.status == 200)
+                    toast.success("Email sent sucessfully")
+            }, function (error) {
+                toast.error("Failed")
+            });
+    }
     return (
         <div>
             <h4 className=' text-3xl text-purple-700 text-center mt-32 mb-10 font-bold'>Contact</h4>
-            <form className="flex flex-col gap-4">
+            <form onSubmit={ handleSubmit(formSubmit) } className="flex flex-col gap-4">
                 <div>
                     <div className="mb-2 block">
                         <Label
@@ -14,22 +31,25 @@ const Contact = () => {
                         />
                     </div>
                     <TextInput
+                        { ...register("email") }
                         id="email1"
                         type="email"
-                        placeholder="name@flowbite.com"
+                        placeholder="Your Email"
                         required={ true }
                     />
                 </div>
                 <div>
                     <div className="mb-2 block">
                         <Label
-                            htmlFor="password1"
-                            value="Your password"
+                            htmlFor="name"
+                            value="Your Name"
                         />
                     </div>
                     <TextInput
-                        id="password1"
-                        type="password"
+                        { ...register("name") }
+                        id="name"
+                        type="text"
+                        placeholder="Your Name"
                         required={ true }
                     />
                 </div>
@@ -41,6 +61,7 @@ const Contact = () => {
                         />
                     </div>
                     <Textarea
+                        { ...register("message") }
                         id="comment"
                         placeholder="Leave a comment..."
                         required={ true }

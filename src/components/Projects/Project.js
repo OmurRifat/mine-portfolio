@@ -6,7 +6,7 @@ import img3 from '../../assets/Images/Screenshot_3.png'
 
 const Project = () => {
     return (
-        <div className=' grid grid-cols-1 md:grid-cols-3 mt-10'>
+        <div className=' grid grid-cols-1 md:grid-cols-3 gap-y-6 mt-10'>
             <div className="max-w-sm">
                 <Card
                     imgAlt="Meaningful alt text for an image that is not purely decorative"
