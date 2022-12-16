@@ -1,16 +1,8 @@
-import { Button, Navbar } from 'flowbite-react';
-import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
+import { Navbar } from 'flowbite-react';
+import React from 'react';
 import img from '../../../assets/Icons/Black And White Rakia Design Studio Logo (2).png'
 
 const Header = () => {
-    const [file, setFile] = useState('./Resume_H. M. Jabed Omur Rifat.pdf')
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
-
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-    }
 
     return (
         <Navbar
@@ -25,9 +17,13 @@ const Header = () => {
                 />
             </Navbar.Brand>
             <div className="flex md:order-2 ">
-                <button className=' bg-purple-700 text-white font-medium px-7 py-3 rounded-lg'>
-                    Get Resume
-                </button>
+                <a href="./Resume_H. M. Jabed Omur Rifat.pdf"
+                    download='./Resume_H. M. Jabed Omur Rifat.pdf'
+                >
+                    <button className=' bg-purple-600 hover:bg-purple-800 text-white font-medium px-7 py-3 rounded-lg'>
+                        Get Resume
+                    </button>
+                </a>
                 <Navbar.Toggle />
             </div>
             <Navbar.Collapse>
