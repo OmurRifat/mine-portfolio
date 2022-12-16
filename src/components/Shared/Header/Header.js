@@ -1,8 +1,17 @@
 import { Button, Navbar } from 'flowbite-react';
-import React from 'react';
+import React, { useState } from 'react';
+import { Document, Page } from 'react-pdf';
 import img from '../../../assets/Icons/Black And White Rakia Design Studio Logo (2).png'
 
 const Header = () => {
+    const [file, setFile] = useState('./Resume_H. M. Jabed Omur Rifat.pdf')
+    const [numPages, setNumPages] = useState(null);
+    const [pageNumber, setPageNumber] = useState(1);
+
+    function onDocumentLoadSuccess({ numPages }) {
+        setNumPages(numPages);
+    }
+
     return (
         <Navbar
             fluid={ true }
