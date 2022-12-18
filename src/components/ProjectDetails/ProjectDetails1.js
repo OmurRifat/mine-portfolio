@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectDetails = () => {
+const ProjectDetails1 = () => {
     return (
         <div>
             <h4>This is project details page.</h4>
@@ -8,4 +8,4 @@ const ProjectDetails = () => {
     );
 };
 
-export default ProjectDetails;
+export default ProjectDetails1;
