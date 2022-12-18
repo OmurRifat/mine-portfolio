@@ -13,7 +13,7 @@ const Contact = () => {
         emailjs.send('service_ok7xt5p', 'template_rwo6t88', data, "LKBPPLmHN-3FYoV3O")
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
-                if (response.status == 200)
+                if (response.status === 200)
                     toast.success("Email sent sucessfully")
             }, function (error) {
                 toast.error("Failed")
