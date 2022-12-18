@@ -1,5 +1,6 @@
 import { Card } from 'flowbite-react';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import img1 from '../../assets/Images/Screenshot_1.png'
 import img2 from '../../assets/Images/Screenshot_2.png'
 import img3 from '../../assets/Images/Screenshot_3.png'
@@ -15,9 +16,12 @@ const Project = () => {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Camera Finder - A Camera Reselling Website
                     </h5>
-                    <button className=' px-8 py-4 bg-purple-600 font-bold text-white rounded-lg'>
-                        View Details
-                    </button>
+                    <Link to='/project-details-1'>
+                        <button className=' px-8 py-4 bg-purple-600 font-bold text-white rounded-lg'>
+                            View Details
+                        </button>
+                    </Link>
+
                 </Card>
             </div>
             <div className="max-w-sm">
@@ -28,9 +32,11 @@ const Project = () => {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Book Store - An Online Book Store
                     </h5>
-                    <button className=' px-8 py-4 bg-purple-600 font-bold text-white rounded-lg'>
-                        View Details
-                    </button>
+                    <Link to='/project-details-2'>
+                        <button className=' px-8 py-4 bg-purple-600 font-bold text-white rounded-lg'>
+                            View Details
+                        </button>
+                    </Link>
                 </Card>
             </div>
             <div className="max-w-sm">
@@ -41,9 +47,11 @@ const Project = () => {
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Education Care - An Online Learning Platform
                     </h5>
-                    <button className=' px-8 py-4 bg-purple-600 font-bold text-white rounded-lg'>
-                        View Details
-                    </button>
+                    <Link to='/project-details-3'>
+                        <button className=' px-8 py-4 bg-purple-600 font-bold text-white rounded-lg'>
+                            View Details
+                        </button>
+                    </Link>
                 </Card>
             </div>
         </div>

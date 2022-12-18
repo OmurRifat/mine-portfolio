@@ -18,7 +18,7 @@ const Banner = () => {
                 <p>
                     I am highly disciplined, and a quick learner. I am passionate about enhancing and developing my <br /> skills and making sure my projects are best fitted. You'll find me hardworking, always seeking improvement<br /> and betterment, and fiercely ambitious.
                 </p>
-                <Link to='/contact'><button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold my-4'>Get In Tuch</button></Link>
+                <Link to='/contact'><button className=' px-8 py-4 bg-purple-600 hover:bg-purple-800 rounded-lg text-white font-bold my-4'>Get In Tuch</button></Link>
             </div>
             <div>
                 <img src={ img } alt="" />
