@@ -48,8 +48,8 @@ const ProjectDetails2 = () => {
             </div>
             <h4 className=' text-2xl font-bold text-purple-700 mt-5 '>Key Features Are:</h4>
             <ul>
-                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Online Based Camera Reselling Platform.</li>
-                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Single Page Application with Admin, Seller & Buyer Dashboard.</li>
+                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Online Book Management Site.</li>
+                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Single Page Application.</li>
                 <li className=' ml-5 mt-2 text-lg'> ={ '>' } Database Integration, Implementing Authentication & Authorization, Secure
                     Token using JWT.</li>
             </ul>

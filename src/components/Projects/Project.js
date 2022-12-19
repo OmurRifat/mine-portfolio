@@ -17,7 +17,7 @@ const Project = () => {
                         Camera Finder - A Camera Reselling Website
                     </h5>
                     <Link to='/project-details-1'>
-                        <button className=' px-8 py-4 bg-purple-600 font-bold text-white rounded-lg'>
+                        <button className=' px-8 py-4 bg-purple-600 hover:bg-purple-800 font-bold text-white rounded-lg'>
                             View Details
                         </button>
                     </Link>
@@ -33,7 +33,7 @@ const Project = () => {
                         Book Store - An Online Book Store
                     </h5>
                     <Link to='/project-details-2'>
-                        <button className=' px-8 py-4 bg-purple-600 font-bold text-white rounded-lg'>
+                        <button className=' px-8 py-4 bg-purple-600 hover:bg-purple-800 font-bold text-white rounded-lg'>
                             View Details
                         </button>
                     </Link>
@@ -48,7 +48,7 @@ const Project = () => {
                         Education Care - An Online Learning Platform
                     </h5>
                     <Link to='/project-details-3'>
-                        <button className=' px-8 py-4 bg-purple-600 font-bold text-white rounded-lg'>
+                        <button className=' px-8 py-4 bg-purple-600 hover:bg-purple-800 font-bold text-white rounded-lg'>
                             View Details
                         </button>
                     </Link>

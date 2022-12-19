@@ -34,10 +34,9 @@ const ProjectDetails3 = () => {
             </div>
             <h4 className=' text-2xl font-bold text-purple-700 mt-5 '>Key Features Are:</h4>
             <ul>
-                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Online Based Camera Reselling Platform.</li>
-                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Single Page Application with Admin, Seller & Buyer Dashboard.</li>
-                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Database Integration, Implementing Authentication & Authorization, Secure
-                    Token using JWT.</li>
+                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Online Education Improving Site.</li>
+                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Single Page Application.</li>
+                <li className=' ml-5 mt-2 text-lg'> ={ '>' } Implementing Authentication.</li>
             </ul>
             <a href="https://edu-care-bd.web.app/"><button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Live Site</button></a>
             <a href="https://github.com/OmurRifat/edu-care-client"><button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Code Link</button></a>
