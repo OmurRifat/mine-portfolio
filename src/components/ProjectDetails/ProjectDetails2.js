@@ -53,8 +53,8 @@ const ProjectDetails2 = () => {
                 <li className=' ml-5 mt-2 text-lg'> ={ '>' } Database Integration, Implementing Authentication & Authorization, Secure
                     Token using JWT.</li>
             </ul>
-            <button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Live Site</button>
-            <button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Code Link</button>
+            <a href="https://book-store-36.web.app/"><button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Live Site</button></a>
+            <a href="https://github.com/OmurRifat/book-store-client"><button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Code Link</button></a>
         </div>
     );
 };

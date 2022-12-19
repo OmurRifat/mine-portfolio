@@ -1,6 +1,7 @@
 import { Carousel } from 'flowbite-react';
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
+import { Link } from 'react-router-dom';
 import img1 from '../../assets/Images/Screenshot_1.png'
 import img2 from '../../assets/Images/Screenshot_4.png'
 import img3 from '../../assets/Images/Screenshot_5.png'
@@ -46,8 +47,8 @@ const ProjectDetails1 = () => {
                 <li className=' ml-5 mt-2 text-lg'> ={ '>' } Database Integration, Implementing Authentication & Authorization, Secure
                     Token using JWT.</li>
             </ul>
-            <button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Live Site</button>
-            <button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Code Link</button>
+            <a href="https://cam-finder.web.app/"><button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Live Site</button></a>
+            <a href="https://github.com/OmurRifat/Cam-Finder"><button className=' px-8 py-4 bg-purple-600 rounded-lg text-white font-bold ml-4 mt-4 hover:bg-purple-800'>Code Link</button></a>
         </div>
     );
 };
