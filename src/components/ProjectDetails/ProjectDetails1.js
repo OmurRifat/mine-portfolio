@@ -1,7 +1,6 @@
 import { Carousel } from 'flowbite-react';
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
-import { Link } from 'react-router-dom';
 import img1 from '../../assets/Images/Screenshot_1.png'
 import img2 from '../../assets/Images/Screenshot_4.png'
 import img3 from '../../assets/Images/Screenshot_5.png'
