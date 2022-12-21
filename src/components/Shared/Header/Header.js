@@ -1,5 +1,6 @@
 import { Navbar } from 'flowbite-react';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import img from '../../../assets/Icons/Black And White Rakia Design Studio Logo (2).png'
 
 const Header = () => {
@@ -9,13 +10,13 @@ const Header = () => {
             fluid={ true }
             rounded={ true }
         >
-            <Navbar.Brand href="/">
+            <Link to="/">
                 <img
                     src={ `${img}` }
                     className="mr-3 h-6 sm:h-9"
                     alt="Flowbite Logo"
                 />
-            </Navbar.Brand>
+            </Link>
             <div className="flex md:order-2 ">
                 <a href="./Resume_H. M. Jabed Omur Rifat.pdf"
                     download='./Resume_H. M. Jabed Omur Rifat.pdf'
@@ -27,21 +28,21 @@ const Header = () => {
                 <Navbar.Toggle />
             </div>
             <Navbar.Collapse>
-                <Navbar.Link
-                    href="/"
+                <Link
+                    to="/"
                     active={ true }
                 >
                     Home
-                </Navbar.Link>
-                <Navbar.Link href="/projects">
+                </Link>
+                <Link to="/projects">
                     Projects
-                </Navbar.Link>
-                <Navbar.Link href="/blogs">
+                </Link>
+                <Link to="/blogs">
                     Blogs
-                </Navbar.Link>
-                <Navbar.Link href="/about">
+                </Link>
+                <Link to="/about">
                     About
-                </Navbar.Link>
+                </Link>
             </Navbar.Collapse>
         </Navbar>
     );
