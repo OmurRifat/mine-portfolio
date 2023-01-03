@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import img from '../../../assets/Icons/Black And White Rakia Design Studio Logo (2).png'
 
 const Header = () => {
-
     return (
         <Navbar
             fluid={ true }
