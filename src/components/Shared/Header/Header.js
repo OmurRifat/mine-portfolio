@@ -18,7 +18,8 @@ const Header = () => {
                 />
             </Link>
             <div className="flex md:order-2 ">
-                <a href="./Resume_H. M. Jabed Omur Rifat.pdf"
+                <a
+                    href="./Resume_H. M. Jabed Omur Rifat.pdf"
                     download='./Resume_H. M. Jabed Omur Rifat.pdf'
                 >
                     <button className=' bg-purple-600 hover:bg-purple-800 text-white font-medium px-7 py-3 rounded-lg'>
