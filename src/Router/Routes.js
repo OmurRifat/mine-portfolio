@@ -37,15 +37,15 @@ const router = createBrowserRouter([
             },
             {
                 path: '/project-details-1',
-                element: <ProjectDetails1></ProjectDetails1>
+                element: <ProjectDetails1 />
             },
             {
                 path: '/project-details-2',
-                element: <ProjectDetails2></ProjectDetails2>
+                element: <ProjectDetails2 />
             },
             {
                 path: '/project-details-3',
-                element: <ProjectDetails3></ProjectDetails3>
+                element: <ProjectDetails3 />
             }
         ]
     }
