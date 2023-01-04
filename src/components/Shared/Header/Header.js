@@ -18,8 +18,7 @@ const Header = () => {
             </Link>
             <div className="flex md:order-2 ">
                 <a
-                    href="./Resume_H. M. Jabed Omur Rifat.pdf"
-                    download='./Resume_H. M. Jabed Omur Rifat.pdf'
+                    href="https://drive.google.com/u/0/uc?id=1tLGRCEK5lJ0eu44NnkN5MjQz_IjiQDxL&export=download"
                 >
                     <button className=' bg-purple-600 hover:bg-purple-800 text-white font-medium px-7 py-3 rounded-lg'>
                         Get Resume

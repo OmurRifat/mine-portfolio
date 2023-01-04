@@ -20,7 +20,7 @@ const Banner = () => {
                 </p>
                 <Link to='/contact'><button className=' px-8 py-4 bg-purple-600 hover:bg-purple-800 rounded-lg text-white font-bold my-4'>Get In Tuch</button></Link>
             </div>
-            <div>
+            <div className=' '>
                 <img src={ img } alt="" />
             </div>
         </div>
