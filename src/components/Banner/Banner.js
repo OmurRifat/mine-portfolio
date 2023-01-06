@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
-import img from '../../assets/Images/rifat_3-removebg-preview (2).png'
+import img from '../../assets/Images/rifat_3-removebg-preview (2).png';
+import 'animate.css';
 
 const Banner = () => {
     return (
