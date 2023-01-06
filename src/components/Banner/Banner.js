@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 import img from '../../assets/Images/rifat_3-removebg-preview (2).png';
-import 'animate.css';
 
 const Banner = () => {
     return (
@@ -21,7 +20,7 @@ const Banner = () => {
                 </p>
                 <Link to='/contact'><button className=' px-8 py-4 bg-purple-600 hover:bg-purple-800 rounded-lg text-white font-bold my-4'>Get In Tuch</button></Link>
             </div>
-            <div className=' '>
+            <div className=''>
                 <img src={ img } alt="" />
             </div>
         </div>
