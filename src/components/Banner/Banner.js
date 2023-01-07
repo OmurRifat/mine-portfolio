@@ -1,5 +1,4 @@
 import React from 'react';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 import img from '../../assets/Images/rifat_3-removebg-preview (2).png';
