@@ -1,6 +1,7 @@
 import { Navbar } from 'flowbite-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Wobble from 'react-reveal/Wobble';
 import img from '../../../assets/Icons/Black And White Rakia Design Studio Logo (2).png'
 
 const Header = () => {
@@ -20,9 +21,11 @@ const Header = () => {
                 <a
                     href="https://drive.google.com/u/0/uc?id=1tLGRCEK5lJ0eu44NnkN5MjQz_IjiQDxL&export=download"
                 >
-                    <button className=' bg-purple-600 hover:bg-purple-800 text-white font-medium px-7 py-3 rounded-lg'>
-                        Get Resume
-                    </button>
+                    <Wobble>
+                        <button className=' bg-purple-600 hover:bg-purple-800 text-white font-medium px-7 py-3 rounded-lg'>
+                            Get Resume
+                        </button>
+                    </Wobble>
                 </a>
                 <Navbar.Toggle />
             </div>

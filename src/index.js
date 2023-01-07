@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Toaster } from 'react-hot-toast';
 import 'react-photo-view/dist/react-photo-view.css';
+import 'animate.css';
+import "animate.css/animate.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
