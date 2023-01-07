@@ -22,9 +22,7 @@ const Banner = () => {
                 <Link to='/contact'><button className=' px-8 py-4 bg-purple-600 hover:bg-purple-800 rounded-lg text-white font-bold my-4'>Get In Tuch</button></Link>
             </div>
             <div>
-                <AnimationOnScroll initiallyVisible={ true } duration={ 3 } animatePreScroll={ true } offset={ 350 } animateIn="animate__fadeInRight">
-                    <img src={ img } alt="" />
-                </AnimationOnScroll>
+                <img src={ img } alt="" />
             </div>
         </div>
     );
